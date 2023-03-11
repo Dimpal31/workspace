@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="25dp"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dimpal"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shruti"
+            android:textSize="25dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/teal_200"
+            android:textStyle="bold"
+            android:layout_below="@id/txt1"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nikunj"
+            android:textColor="#FFC107"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_below="@id/txt2"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tasmin"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_below="@id/txt3"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/android"
+            android:layout_below="@id/txt4"/>
+    </RelativeLayout>
+</ScrollView>
