@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".radio_button_Checkbox">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobbies"
+        android:textSize="30dp"/>
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reading"/>
+
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"/>
+
+
+    <CheckBox
+        android:id="@+id/chk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dancing"/>
+
+
+    <CheckBox
+        android:id="@+id/chk4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Games"/>
+
+
+    <CheckBox
+        android:id="@+id/chk5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watching TV"/>
+
+
+    <CheckBox
+        android:id="@+id/chk6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singing"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MALE"/>
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEMALE"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>
