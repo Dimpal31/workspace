@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="25dp"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Win!"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FF9800"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/trophy"
+        android:layout_below="@id/txt1"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WINNER"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@+id/img1"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FF9800"
+        android:layout_below="@id/txt2"
+        android:background="@drawable/shape"
+        />
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
